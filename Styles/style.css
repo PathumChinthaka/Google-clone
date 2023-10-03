@@ -1,64 +1,94 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-body{
-  font-family: 'Open Sans';
-}
+  body {
+    font-family: 'Open Sans';
+  }
 
-.link-bar{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 15px;
-}
+  .link-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+  }
 
-.links{
-  margin: 0 25px;  
-}
+  .links {
+    margin: 0 25px;
+  }
 
-.links a{
-  margin: 0 5px;
-  text-decoration:none !important;
-  color: black;
-  font-size: 0.8rem;
-  font-weight: 500;
-}
+  .links a {
+    margin: 0 5px;
+    text-decoration: none !important;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
 
-.icons a{
-  margin: 0 10px;
-  font-size: 20px;
-  color: black;
-}
+  .icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+  }
 
-.main-logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-}
+  .main-logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
 
-.logo-container>img{
-  height: 92px;
-  width: 272px;
-  margin-bottom: 40px;
-}
+  .logo-container>img {
+    height: 92px;
+    width: 272px;
+    margin-bottom: 40px;
+  }
 
-.search-bar-container{
-  width: 40%;
-}
+  .search-bar-container {
+    width: 40%;
+    display: block;
+  }
 
-.search-bar-container input{
-  width: 100%;
-  padding: 10px;
-  border-radius: 50px;
-  margin-bottom: 60px;
-  font-size: inherit;
-  font-family: inherit;
-  border: 1px solid rgb(15, 15, 15);
-}
+  .search-bar-container input {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border-radius: 50px;
+    margin-bottom: 60px;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid rgb(15, 15, 15);
+  }
+
+  .btn-group button {
+    padding: 7px 7px;
+    width: 130px;
+    margin: 0 10px;
+    font-family: inherit;
+  }
+
+  .country-name {
+    padding: 10px;
+    text-align: left;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f4f6;
+  }
+
+  .link-set-one a{
+    margin: 0 10px;
+    text-align: end;
+  }
+
+  .link-set-two{
+    align-self: flex-end;
+  }
