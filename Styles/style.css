@@ -8,6 +8,7 @@
 
   body {
     font-family: 'Open Sans';
+    overflow-x: hidden;
   }
 
   .link-bar {
@@ -52,7 +53,7 @@
 
   .search-bar-container {
     width: 560px;
-    display: block;
+    margin: 0 auto;
   }
 
   .search-icon{
@@ -137,5 +138,17 @@
     .link-container{
       flex-direction: column;
       text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .search-bar-container{
+      width: 450px;
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    .search-bar-container{
+      width: 337px;
     }
   }
