@@ -56,15 +56,28 @@
     display: block;
   }
 
+  .search-icon{
+    position: relative;
+    display: inline-block;
+    top: 35px;
+    left: 10px;
+    z-index: 1;
+  }
+
   .search-bar-container input {
     width: 100%;
     padding: 10px;
+    position: relative;
     display: block;
     border-radius: 50px;
     margin-bottom: 60px;
     font-size: inherit;
     font-family: inherit;
     border: 1px solid rgb(15, 15, 15);
+  }
+
+  #search::placeholder{
+    text-align: center;
   }
 
   .btn-group button {
