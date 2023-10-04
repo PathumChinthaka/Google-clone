@@ -8,7 +8,6 @@
 
   body {
     font-family: 'Open Sans';
-    overflow-y: hidden;
   }
 
   .link-bar {
@@ -42,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 79vh;
+    height: 75vh;
   }
 
   .logo-container>img {
@@ -58,26 +57,25 @@
 
   .search-icon{
     position: relative;
-    display: inline-block;
-    top: 35px;
-    left: 10px;
+    top: 34px;
+    left: 12px;
     z-index: 1;
   }
 
   .search-bar-container input {
     width: 100%;
-    padding: 10px;
+    padding: 10px 20px 10px 35px;
     position: relative;
     display: block;
     border-radius: 50px;
     margin-bottom: 60px;
     font-size: inherit;
     font-family: inherit;
-    border: 1px solid rgb(15, 15, 15);
+    border: 1px solid rgb(173, 172, 172);
   }
 
-  #search::placeholder{
-    text-align: center;
+  .btn-group{
+    margin-bottom: 40px;
   }
 
   .btn-group button {
@@ -85,6 +83,18 @@
     width: 130px;
     margin: 0 10px;
     font-family: inherit;
+    background-color: #f3f4f6;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 5px;
+  }
+
+  .language-links{
+    font-family: inherit;
+    font-size: 13px;
+  }
+
+  .lang a{
+    margin: 0 5px;
   }
 
   .country-name {
@@ -97,14 +107,18 @@
 
   footer {
     display: flex;
-    padding: 10px;
+    padding:5px;
     flex-direction: column;
     background-color: #f3f4f6;
   }
 
+  .link-set-one{
+    margin-top: 20px;
+  }
+
   .link-set-one a{
     margin: 0 10px;
-    padding: 20px 0;
+    padding: 5px 0;
     text-decoration: none;
     color: rgb(85, 84, 84);
     text-align: right;
