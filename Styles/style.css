@@ -8,6 +8,7 @@
 
   body {
     font-family: 'Open Sans';
+    overflow-y: hidden;
   }
 
   .link-bar {
@@ -41,7 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 79vh;
   }
 
   .logo-container>img {
@@ -76,19 +77,29 @@
   .country-name {
     padding: 10px;
     text-align: left;
+    color: rgb(85, 84, 84);
+    display: block;
+    font-weight: 400;
   }
 
   footer {
     display: flex;
+    padding: 10px;
     flex-direction: column;
     background-color: #f3f4f6;
   }
 
   .link-set-one a{
     margin: 0 10px;
-    text-align: end;
+    padding: 20px 0;
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    text-align: right;
+    font-size: 0.9rem;
   }
 
-  .link-set-two{
-    align-self: flex-end;
+  .link-container{
+    display: flex;
+    justify-content:space-between;
+    text-align: end;
   }
